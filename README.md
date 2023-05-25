@@ -23,14 +23,8 @@ To perform this method, simply run:
   ```R
   library(NGSEM)
   
-  res <- ng_sem(
-                  dat,
-                  nk=3,
-                  param.miter=5000,
-                  param.error=1e-6,
-                  n.cores = 24,
-                  seed_list = NULL
-                )
+  res <- ng_sem(dat, nk=3, param.miter=5000, param.error=1e-6, n.cores = 24, seed_list = NULL)
+
   ```
 **ng_sem() parameters**
   
@@ -39,7 +33,7 @@ To perform this method, simply run:
 - **param.miter**: the maximum iteration to implement the EM algorithm (**default: 5000**).
 - **param.error**: the error bound for the termination criteria to implement the EM algorithm (**default: 1e-6**).
 - **n.cores**: the number of working CPU cores for parallelization (**default: 24**).
-- **seed_list**: seeds for reproducibility (**default: NULL**).
+- **seed_list**: seeds for reproducibility (**default: NULL**). The seed list for reproducing can be found as an *rds* file under the *./data* folder of this repository 
 
 
 
@@ -51,6 +45,7 @@ To perform this method, simply run:
 - **Comp_Weight**: a G-by-nk matrix that contains the Gaussian component weights.
 - **Comp_Sigma2**: a G-by-nk matrix that contains the Gaussian component variances.
 - **time**: CPU time to implement **scEM-SEM**.
+
 
 ## Contact
 
