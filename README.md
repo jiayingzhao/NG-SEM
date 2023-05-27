@@ -44,7 +44,7 @@ To perform this method, simply run:
 - `iteration`: a vector of length G that records the iterations.
 - `Comp_Weight`: a G-by-nk matrix that contains the Gaussian component weights.
 - `Comp_Sigma2`: a G-by-nk matrix that contains the Gaussian component variances.
-- `time`: CPU time to implement **scEM-SEM**.
+- `time`: CPU time to implement **NG-SEM**.
 
 
 ## Contact
