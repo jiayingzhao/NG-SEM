@@ -1,7 +1,7 @@
 # NG-SEM
 
 ## Description
-This repository is an implementation for **NG-SEM** (short for, an effective **N**on-**G**aussian **S**tructural **S**quation modeling framework for gene regulatory network inference from temporal single cell RNA-seq data).
+This repository is an implementation for **NG-SEM** (short for, an effective **N**on-**G**aussian **S**tructural **E**quation **M**odeling framework for gene regulatory network inference from temporal single cell RNA-seq data).
 
 
 ## Installation
