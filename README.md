@@ -30,7 +30,7 @@ To perform this method, simply run:
   
 - `dat`: a gene-by-cell matrix (or data.frame, **required**) for single-cell RNA-seq expression data, which is not restricted to experiment measurements and is applicable to RPM (reads per million reads), TPM (transcripts per kilobase per millions reads) or RPKM (reads per kilobase per millions reads).
 - `nk`: the number of Gaussian components for the Gaussian-mixture noise model (`default: 3`).
-- `param.miter`: the maximum iteration to implement the EM algorithm (`default: 5000`).
+- `param.miter`: the maximum iteration to implement the EM algorithm (`default: 500`).
 - `param.error`: the error bound for the termination criteria to implement the EM algorithm (`default: 1e-6`).
 - `n.cores`: the number of working CPU cores for parallelization (`default: 24`).
 - `seed_list`: seeds for reproducibility (`default: NULL`). The seed list for reproducing can be found as an *rds* file under the *./data* folder of this repository 
