@@ -23,7 +23,7 @@ To perform this method, simply run:
   ```R
   library(NGSEM)
   
-  res <- ng_sem(dat, nk=3, param.miter=5000, param.error=1e-6, n.cores = 24, seed_list = NULL)
+  res <- ng_sem(dat, nk=3, param.miter=500, param.error=1e-6, n.cores = 24, seed_list = NULL)
 
   ```
 **ng_sem() parameters**
